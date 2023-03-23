@@ -1,0 +1,24 @@
+package cogent.ex;
+
+public class BookDao {
+
+	public void create()
+	{
+		
+	}
+	
+	public void read()
+	{
+		
+	}
+	
+	public void update()
+	{
+		
+	}
+	
+	public void delete()
+	{
+		
+	}
+}

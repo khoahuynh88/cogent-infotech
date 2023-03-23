@@ -1,0 +1,18 @@
+package gl.itp.hyd65.cs123.khoa;
+
+public class Advisor {
+String[] message = new String [5];
+
+public void advice(){
+	this.message[0]="advice 1";
+	this.message[1]="advice 2";
+	this.message[2]="advice 3";
+	this.message[3]="advice 4";
+	this.message[4]="advice 5";
+}
+
+public String getAdvice(){
+	String advice = this.message[0];
+	return advice;
+}
+}

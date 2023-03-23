@@ -1,0 +1,29 @@
+package cogent_batch65;
+
+public class Sequence {
+public static void main(String[] args) {
+	
+	int number1 = Integer.parseInt(args[0]);
+	int number2 = Integer.parseInt(args[1]);
+	
+	System.out.println("number1: "+number1 + "number2: "+ number2);
+	
+	 int f[] = new int[13 + 2];
+	 
+     int i;
+
+     // 0th and 1st number of
+     // the series are 0 and 1
+     f[0] = number1;
+     f[1] = number2;
+
+     for (i = 2; i <15; i++) {
+
+         // Add the previous 2 numbers
+         // in the series and store it
+         f[i] = f[i - 1] + f[i - 2];
+     }
+
+     for(int j =0; j<15;j++) {System.out.println(f[j]);}
+}
+}

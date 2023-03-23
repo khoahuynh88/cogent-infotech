@@ -1,0 +1,26 @@
+package cogent.ex;
+
+public class BookDao {
+
+	public void create(Book[] book, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void read()
+	{
+		
+	}
+	
+	public void update()
+	{
+		
+	}
+	
+	public void delete()
+	{
+		
+	}
+
+	
+}

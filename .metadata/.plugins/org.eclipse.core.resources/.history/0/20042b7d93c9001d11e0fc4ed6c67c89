@@ -1,0 +1,13 @@
+package esg.itp.shape;
+
+public class Regtangle {
+float length;
+float breadth;
+public Regtangle(int len, int bred) {
+	
+	 length= len;
+	 breadth= bred;
+}
+
+
+}

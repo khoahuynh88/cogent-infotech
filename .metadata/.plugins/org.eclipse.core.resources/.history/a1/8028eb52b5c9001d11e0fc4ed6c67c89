@@ -1,0 +1,14 @@
+package cogentE1;
+
+public class testRectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle r = new Rectangle(10, 5);
+		
+		r.calcArea();;
+		r.calcPeri();
+		r.display();
+	}
+
+}

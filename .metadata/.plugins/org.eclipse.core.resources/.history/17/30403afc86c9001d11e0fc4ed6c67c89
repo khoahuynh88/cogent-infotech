@@ -1,0 +1,6 @@
+import gl.itp.hyd65.cs123.khoa.Advisor;
+import gl.itp.hyd65.cs123.khoa.Greeter;
+
+public class GreeterTest {
+
+}
