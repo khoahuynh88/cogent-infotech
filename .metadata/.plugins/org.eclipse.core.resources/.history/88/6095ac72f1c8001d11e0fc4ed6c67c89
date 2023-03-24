@@ -1,5 +1,0 @@
-package cogent.exe.abstraction;
-
-public abstract class Compartment {
-
-}

@@ -1,7 +1,0 @@
-package cogent_batch65;
-
-public class HelloWorld {
-	public static void main (String[] args){
-		System.out.println("Welcom to cogent infotech!!");
-	}
-}
