@@ -25,9 +25,8 @@ public class ProductMain {
 			choice =sc.nextInt();
 			switch(choice){
 			case 1:
-				System.out.println("How many Product you want to add? (no more than 10)");
-				int count = sc.nextInt();
-				product = new Product[count];
+				
+				product = new Product[10];
 				for(int i=0; i<product.length;i++){
 					dao.create(product, i);
 				}
