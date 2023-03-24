@@ -16,6 +16,9 @@ public class Test {
 				System.out.println("second string");
 				System.out.println("third string");
 		}
+		
+		 int a[] = {1,016};
+		 System.out.println(a[1]);
 	}
 
 }
