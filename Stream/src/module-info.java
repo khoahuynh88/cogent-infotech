@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author khoah
+ *
+ */
+module Stream {
+}
