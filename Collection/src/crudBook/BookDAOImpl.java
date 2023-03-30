@@ -21,6 +21,9 @@ public class BookDAOImpl implements BookDAO {
 
 	@Override
 	public void updateBook(List <Book> list,int id) {
+		if (list.isEmpty()) {
+			System.out.println("There is no book");
+		}
 		boolean found = false;
 		Iterator<Book> itr = list.iterator();
 		while (itr.hasNext()) {
@@ -40,6 +43,10 @@ public class BookDAOImpl implements BookDAO {
 
 	@Override
 	public void deleteBook(List <Book> list,int id) {
+		if (list.isEmpty()) {
+			System.out.println("There is no book");
+		}
+		
 		Book b= null;
 		for (Book book : list) {
 			if (book.getBookId()== id) {b=book;}
